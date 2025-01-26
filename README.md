@@ -1,0 +1,3 @@
+# PHP Non-Numeric Value Encountered Warning
+
+This example demonstrates a common, yet subtle, issue in PHP: the handling of type errors.  While PHP's type hinting is beneficial, it doesn't always provide the most robust error handling, particularly when dealing with unexpected input types. This example shows that instead of producing a more descriptive error, only a warning is thrown when a non-numeric value is provided to a function expecting numerical data, potentially leading to unexpected behavior or hard-to-debug issues in larger applications.
